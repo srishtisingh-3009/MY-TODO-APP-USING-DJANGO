@@ -54,8 +54,8 @@ integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw
 <div class="center-column">
 
 
-<h3>Are you sure to delete task i.e."{{item}}"?</h3>
-<a class="btn  btn-danger" href="{% url 'first' %}">Cancel</a
+<h3>Are you sure to delete task i.e."{{item}}" ?</h3>
+<a class="btn  btn-danger" href="{% url 'first' %}">Cancel</a>
 <form method="POST" action="">
   {% csrf_token %}
   <input class="btn btn-info" type="submit" name="confirm">
